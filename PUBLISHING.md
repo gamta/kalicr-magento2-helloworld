@@ -38,13 +38,10 @@ git add .
 git commit -m "Initial release v1.0.0 - Kalicr HelloWorld Module for Magento 2"
 
 # Añade el repositorio remoto (reemplaza 'TU_USUARIO' con tu usuario de GitHub)
-git remote add origin https://github.com/TU_USUARIO/kalicr-magento2-helloworld.git
-
-# Renombra la rama a main (si es necesario)
-git branch -M main
+git remote add origin https://github.com/gamta/kalicr-magento2-helloworld
 
 # Sube el código
-git push -u origin main
+git push -u origin master
 ```
 
 ### 1.3 Crear Tag de Versión
@@ -75,7 +72,7 @@ git push origin 1.0.0
 1. En Packagist, click en **"Submit"** (esquina superior derecha)
 2. Pega la URL de tu repositorio:
    ```
-   https://github.com/TU_USUARIO/kalicr-magento2-helloworld
+   https://github.com/gamta/kalicr-magento2-helloworld
    ```
 3. Click en **"Check"** para validar
 4. Si todo está correcto, click en **"Submit"**
@@ -171,7 +168,7 @@ Ejemplos:
 Documenta todos los cambios en `CHANGELOG.md`:
 
 ```markdown
-## [1.0.1] - 2024-12-08
+## [1.0.1] - 2025-12-08
 
 ### Fixed
 - Corregido problema con CSS en móviles
@@ -255,4 +252,4 @@ composer require kalicr/magento2-helloworld
 
 ---
 
-_Creado por David Gamboa - Kalicr © 2024_
+_Creado por David Gamboa - Kalicr © 2025_

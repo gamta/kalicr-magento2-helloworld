@@ -132,7 +132,7 @@ vendor/bin/phpcs --standard=Magento2 app/code/Kalicr/HelloWorld
 
 ## 📝 Changelog
 
-### Version 1.0.0 (2024-12-07)
+### Version 1.0.0 (2025-12-07)
 - Initial release
 - Frontend route implementation
 - Custom block and template
@@ -156,7 +156,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **David Gamboa**
-- Email: david@kalicr.com
+- Email: dgamboa@kalicr.com
 - Company: Kalicr
 
 ## 🙏 Acknowledgments
@@ -180,4 +180,4 @@ If you encounter any issues or have questions, please:
 
 ---
 
-Made with ❤️ by David Gamboa - Kalicr © 2024
+Made with ❤️ by David Gamboa - Kalicr © 2025

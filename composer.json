@@ -2,12 +2,12 @@
     "name": "kalicr/magento2-helloworld",
     "description": "A simple Hello World module for Magento 2 - Demo for Packagist",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
             "name": "David Gamboa",
-            "email": "david@kalicr.com"
+            "email": "dgamboa@kalicr.com"
         }
     ],
     "minimum-stability": "stable",

@@ -301,4 +301,4 @@ Si encuentras problemas:
 
 ---
 
-_Creado por David Gamboa - Kalicr © 2024_
+_Creado por David Gamboa - Kalicr © 2025_

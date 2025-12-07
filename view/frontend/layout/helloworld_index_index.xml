@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Kalicr HelloWorld Layout Configuration
+ * 
+ * @category  Kalicr
+ * @package   Kalicr_HelloWorld
+ * @author    David Gamboa <david@kalicr.com>
+ * @copyright Copyright (c) 2024 Kalicr
+ * @license   MIT License
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Hello World - Kalicr Module</title>
+        <css src="Kalicr_HelloWorld::css/helloworld.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Kalicr\HelloWorld\Block\HelloWorld" 
+                   name="kalicr.helloworld" 
+                   template="Kalicr_HelloWorld::helloworld.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

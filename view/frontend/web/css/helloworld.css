@@ -1,0 +1,134 @@
+/**
+ * Kalicr HelloWorld Styles
+ * 
+ * @category  Kalicr
+ * @package   Kalicr_HelloWorld
+ * @author    David Gamboa <david@kalicr.com>
+ * @copyright Copyright (c) 2024 Kalicr
+ * @license   MIT License
+ */
+
+.helloworld-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.helloworld-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.helloworld-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.helloworld-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.helloworld-content {
+    padding: 40px 30px;
+}
+
+.helloworld-info {
+    background: #f8f9fa;
+    border-left: 4px solid #667eea;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.info-item {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.info-item strong {
+    color: #667eea;
+    margin-right: 10px;
+}
+
+.helloworld-description {
+    margin-bottom: 30px;
+}
+
+.helloworld-description h2,
+.helloworld-features h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #667eea;
+}
+
+.helloworld-description p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.helloworld-description pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.helloworld-description code {
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+}
+
+.helloworld-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.helloworld-features li {
+    padding: 12px 0 12px 30px;
+    position: relative;
+    color: #666;
+    line-height: 1.6;
+}
+
+.helloworld-features li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.helloworld-footer {
+    background: #f8f9fa;
+    padding: 20px 30px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+.helloworld-footer p {
+    margin: 0;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .helloworld-header h1 {
+        font-size: 2rem;
+    }
+    
+    .helloworld-content {
+        padding: 20px 15px;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "kalicr/magento2-helloworld",
+    "description": "A simple Hello World module for Magento 2 - Demo for Packagist",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Gamboa",
+            "email": "david@kalicr.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.4.0||~8.1.0||~8.2.0",
+        "magento/framework": ">=102.0.0",
+        "magento/module-backend": ">=102.0.0",
+        "magento/module-store": ">=101.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kalicr\\HelloWorld\\": ""
+        }
+    },
+    "keywords": [
+        "magento2",
+        "magento",
+        "module",
+        "hello world",
+        "kalicr",
+        "demo"
+    ]
+}

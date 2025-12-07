@@ -1,0 +1,63 @@
+<?php
+/**
+ * Kalicr HelloWorld Template
+ * 
+ * @category  Kalicr
+ * @package   Kalicr_HelloWorld
+ * @author    David Gamboa <david@kalicr.com>
+ * @copyright Copyright (c) 2024 Kalicr
+ * @license   MIT License
+ * 
+ * @var $block \Kalicr\HelloWorld\Block\HelloWorld
+ */
+?>
+<div class="helloworld-container">
+    <div class="helloworld-card">
+        <div class="helloworld-header">
+            <h1><?= $block->escapeHtml($block->getWelcomeMessage()) ?></h1>
+        </div>
+        
+        <div class="helloworld-content">
+            <div class="helloworld-info">
+                <p class="info-item">
+                    <strong><?= __('Module:') ?></strong> 
+                    <span>Kalicr_HelloWorld</span>
+                </p>
+                <p class="info-item">
+                    <strong><?= __('Version:') ?></strong> 
+                    <span><?= $block->escapeHtml($block->getModuleVersion()) ?></span>
+                </p>
+                <p class="info-item">
+                    <strong><?= __('Current Date/Time:') ?></strong> 
+                    <span><?= $block->escapeHtml($block->getCurrentDateTime()) ?></span>
+                </p>
+            </div>
+            
+            <div class="helloworld-description">
+                <h2><?= __('About This Module') ?></h2>
+                <p>
+                    <?= __('This is a demonstration module for Magento 2, created to showcase how to build and publish modules on Packagist.org.') ?>
+                </p>
+                <p>
+                    <?= __('This module can be installed via Composer using:') ?>
+                </p>
+                <pre><code>composer require kalicr/magento2-helloworld</code></pre>
+            </div>
+            
+            <div class="helloworld-features">
+                <h2><?= __('Features') ?></h2>
+                <ul>
+                    <li><?= __('Simple frontend route: /helloworld') ?></li>
+                    <li><?= __('Custom block with helper methods') ?></li>
+                    <li><?= __('Styled template with CSS') ?></li>
+                    <li><?= __('Full Magento 2 module structure') ?></li>
+                    <li><?= __('Ready for Packagist.org publication') ?></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="helloworld-footer">
+            <p><?= __('Created by David Gamboa - Kalicr © 2024') ?></p>
+        </div>
+    </div>
+</div>
